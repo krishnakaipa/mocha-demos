@@ -1,4 +1,4 @@
-const test = require("../test.js")
+const test = require("./test.js")
 class Factorial {
     constructor(){
         
