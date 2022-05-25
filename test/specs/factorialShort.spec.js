@@ -19,6 +19,10 @@ describe('factorialShort', function() {
     it('should return 1 when called with number 0', function() {
         expect(factorial.factorialShort(0)).to.be.equal(1);
     });
+    
+    it('should return 1 when called with number 1', function() {
+        expect(factorial.factorialShort(1)).to.be.equal(1);
+    });
 
     it('should return 362880 when called with number 9', function() {
         expect(factorial.factorialShort(9)).to.be.equal(362880);
