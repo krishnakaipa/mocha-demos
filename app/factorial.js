@@ -1,3 +1,4 @@
+const test = require("../test.js")
 class Factorial {
     constructor(){
         
